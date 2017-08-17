@@ -1,6 +1,6 @@
 Name     : kafka-dep
 Version  : 0.10.1.1
-Release  : 4
+Release  : 5
 URL      : http://apache.mirrors.lucidnetworks.net/kafka/0.10.1.1/kafka-0.10.1.1-src.tgz
 Source0 : https://jcenter.bintray.com/com/github/ben-manes/gradle-versions-plugin/0.12.0/gradle-versions-plugin-0.12.0.jar
 Source1 : https://jcenter.bintray.com/com/github/ben-manes/gradle-versions-plugin/0.12.0/gradle-versions-plugin-0.12.0.pom
@@ -426,7 +426,7 @@ Source415 : https://repo1.maven.org/maven2/xpp3/xpp3_min/1.1.4c/xpp3_min-1.1.4c.
 Source416 : https://repo1.maven.org/maven2/xpp3/xpp3_min/1.1.4c/xpp3_min-1.1.4c.pom
 Summary  : No detailed summary available
 Group    : Development/Tools
-License  : CDDL-1.0 CDDL-1.1
+License  : Apache-2.0 GPL-2.0 CDDL-1.0 EPL-1.0 BSD-3-Clause MIT LGPL-2.1 BSD-2-Clause
 
 %description
 This directory contains examples of client code that uses kafka.
