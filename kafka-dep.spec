@@ -1,6 +1,6 @@
 Name     : kafka-dep
 Version  : 0.10.1.1
-Release  : 3
+Release  : 4
 URL      : http://apache.mirrors.lucidnetworks.net/kafka/0.10.1.1/kafka-0.10.1.1-src.tgz
 Source0 : https://jcenter.bintray.com/com/github/ben-manes/gradle-versions-plugin/0.12.0/gradle-versions-plugin-0.12.0.jar
 Source1 : https://jcenter.bintray.com/com/github/ben-manes/gradle-versions-plugin/0.12.0/gradle-versions-plugin-0.12.0.pom
