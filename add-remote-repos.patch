@@ -1,0 +1,27 @@
+diff -ru kafka-0.10.2.2-src-old/build.gradle kafka-0.10.2.2-src/build.gradle
+--- kafka-0.10.2.2-src-old/build.gradle	2019-01-01 17:27:46.476355285 -0800
++++ kafka-0.10.2.2-src/build.gradle	2019-01-01 17:38:56.961303835 -0800
+@@ -17,7 +17,10 @@
+ 
+ buildscript {
+   repositories {
+-    maven { url "$repoDir/.m2/repository" }
++    mavenCentral()
++    maven {
++      url "https://plugins.gradle.org/m2/"
++    }
+   }
+   apply from: file('gradle/buildscript.gradle'), to: buildscript
+ 
+@@ -35,7 +38,10 @@
+   apply plugin: "jacoco"
+ 
+   repositories {
+-    maven { url "$repoDir/.m2/repository" }
++    mavenCentral()
++    maven {
++      url "https://plugins.gradle.org/m2/"
++    }
+   }
+ 
+   apply plugin: 'com.github.ben-manes.versions'
