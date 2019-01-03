@@ -1,0 +1,8 @@
+/results
+/rpms
+/files.txt
+/sources.txt
+/install.txt
+/kafka-*-src*
+/*.pom*
+/*.jar*
